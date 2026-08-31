@@ -7,7 +7,7 @@ setTimeout(()=>{
 
 console.log("Stop");
 
-function Example-Arrow and Normal Function
+// function Example-Arrow and Normal Function
 
 const PakStates = (first,second,third,fourth,PunjabCities)=>{
     console.log("Pakistan have following states " + first+ " "+ second+ " " + third+ " " +fourth);
