@@ -60,7 +60,7 @@ function login(username,password)
 }
 login("admin","123456");
 
-function login(username,password)
+function login1(username,password)
 {
     return new Promise((resolve,reject)=>{
         if(username === "admin" && password === "1234")
@@ -73,7 +73,7 @@ function login(username,password)
         }
     })
 }
-login("admin","1234")
+login1("admin","1234")
 .then((result)=>{
     console.log(result);
 })
