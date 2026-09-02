@@ -41,6 +41,8 @@ async   function loadUser(){
 console.log("1");
 loadUser();
 console.log("2");
+
+// 5th Type
 async function getpost()
 {
     try
