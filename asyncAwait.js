@@ -41,3 +41,17 @@ async   function loadUser(){
 console.log("1");
 loadUser();
 console.log("2");
+async function getpost()
+{
+    try
+    {
+        let response = await fetch("https://jsonplaceholder.typicode.com/posts");
+        let data = await response.json();
+        console.log("data is :",data.length)
+    }
+    catch(error)
+    {
+        console.log(error);
+    }
+}
+getpost();
