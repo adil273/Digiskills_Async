@@ -57,3 +57,12 @@ async function getpost()
     }
 }
 getpost();
+fetch("https://jsonplaceholder.typicode.com/posts")
+.then
+(
+    (response)=>response.json()
+)
+.then((data)=>{
+    console.log("data is :",data);
+console.log("data is :",data.length);
+});
